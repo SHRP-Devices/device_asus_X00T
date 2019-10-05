@@ -100,4 +100,7 @@ TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
 
+#SHRP_ex
+SHRP_PATH := device/asus/X00T
+
 -include vendor/kud/recovery/config.mk
