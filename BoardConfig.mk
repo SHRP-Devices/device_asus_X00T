@@ -100,7 +100,15 @@ TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
 
-#SHRP_ex
+#SHRP_Configs
 SHRP_PATH := device/asus/X00T
+SHRP_MAINTAINER := epicX
+SHRP_DEVICE_CODE := X00T
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
 
 -include vendor/kud/recovery/config.mk
