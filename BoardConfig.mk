@@ -108,7 +108,12 @@ SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A-Only
 SHRP_FLASH := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EXPRESS := true
+SHRP_OFFICIAL := true
+SHRP_DARK := true
 
 -include vendor/kud/recovery/config.mk
